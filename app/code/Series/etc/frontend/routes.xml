@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * This file is part of Poe Customer
+ *
+ * @author JC Lecas <jclecas@clever-age.com> <@CleverAge>
+ * @category Poe
+ * @package Poe\Customer\etc\frontend
+ * @license CleverAge
+ * @copyright Copyright (c) 2022 Clever Age (https://www.clever-age.com)
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="series" frontName="series">
+            <module name="Series"/>
+        </route>
+    </router>
+</config>

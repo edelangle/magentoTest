@@ -1,0 +1,20 @@
+procedure pour installer npm grunt:
+
+
+#Dans bash root
+Make bash-root
+
+#Pour installer NodeJS 10.x
+curl -sL https://deb.nodesource.com/setup_10.x | sudo bash -
+apt-get install -y nodejs
+npm install n -g
+# Install LTS version
+n lts
+
+#pour que l’installation de grunt fonctionne
+npm i
+npm i -g grunt-cli --force
+
+npm install -g npm
+npm install grunt --save-dev -g
+

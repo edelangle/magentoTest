@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * This file is part of Poe Customer
+ *
+ * @author JC Lecas <jclecas@clever-age.com> <@CleverAge>
+ * @category Poe
+ * @package Poe\Customer\view\frontend\layout
+ * @license CleverAge
+ * @copyright Copyright (c) 2022 Clever Age (https://www.clever-age.com)
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <title>Series Page</title>
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block class="Series\Block\Series" name="customer.customer.index" template="Poe_Series::list.phtml" cacheable="false" />
+        </referenceContainer>
+    </body>
+</page>

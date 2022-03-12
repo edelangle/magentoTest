@@ -1,0 +1,24 @@
+<?php
+/** @var \Poe\Series\Block\Series $block  */
+
+?>
+<table>
+    <thead>
+        <th>#</th>
+        <th><?= __('Name')?></th>
+        <th><?= __('Color')?></th>
+        <th><?= __('Action')?></th>
+    </thead>
+    <?php
+    foreach ($block->getSeries() as $serie): ?>
+        <tr>
+            <td style="color: <?= $serie->getColor() ?>"><?= $serie->getSeriesId() ?></td>
+            <td style="color: <?= $serie->getColor() ?>"><?= $serie->getName() ?></td>
+            <td style="color: <?= $serie->getColor() ?>"><?= $serie->getColor() ?></td>
+            <td>
+                <a href=""><button>Voir</button></a>
+                <a href=""><button>Supprimer</button></a>
+            </td>
+        </tr>
+    <?php endforeach; ?>
+</table>
